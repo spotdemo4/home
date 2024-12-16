@@ -1,0 +1,10 @@
+services:
+  home:
+    build:
+      context: .
+      args:
+        TZ: 'America/New_York'
+    container_name: home
+    ports:
+      - '3865:3000'
+    restart: unless-stopped
