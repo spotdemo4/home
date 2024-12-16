@@ -1,5 +1,8 @@
 node_modules
 
+# Nix
+.direnv
+
 # Output
 .output
 .vercel
